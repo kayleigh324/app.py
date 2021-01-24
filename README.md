@@ -11,7 +11,9 @@ feedback_app$
 Now we are in the root of the new folder so we can begin installing the required packages..
 
 feedback_app$ sudo apt install python3-venv
+
 feedback_app$ python3 -m venv feedback_app-env
+
 feedback_app$ source feedback_app-env/bin/activate
 
 Now your terminal should look like this with the virtual environment at the beginning of the $..
